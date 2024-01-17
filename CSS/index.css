@@ -1,0 +1,128 @@
+/* 既存のスタイルがある場合はそのまま残す */
+
+body {
+    /* ページ全体の背景色や余白などを指定 */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* 例: グレーの背景色 */
+}
+
+h2 {
+    /* フォーム内のタイトルに対するスタイルはここに追加 */
+    color: #333; /* 例: タイトルの文字色を指定 */
+}
+
+.anime-form {
+    /* フォーム全体に対するスタイルを指定 */
+    max-width: 400px; /* 例: フォームの最大幅を指定 */
+    margin: 50px auto; /* 例: フォームを中央に配置 */
+    padding: 20px; /* 例: フォームの内側の余白を指定 */
+    background-color: #fff; /* 例: フォームの背景色を指定 */
+    border-radius: 8px; /* 例: フォームの角丸を指定 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 例: フォームに影を付ける */
+}
+
+label {
+    /* ラベルに対するスタイルはここに追加 */
+    display: block; /* ラベルをブロック要素として配置 */
+    margin-bottom: 8px; /* ラベルの下に少し余白を追加 */
+}
+
+input {
+    /* 入力フィールドに対するスタイルはここに追加 */
+    width: 100%; /* 入力フィールドを親要素に対して100%に広げる */
+    padding: 8px; /* 入力フィールドの内側の余白を指定 */
+    margin-bottom: 16px; /* 入力フィールドの下に余白を追加 */
+    border: 1px solid #ddd; /* 入力フィールドに枠線を付ける */
+    border-radius: 4px; /* 入力フィールドの角丸を指定 */
+}
+
+input[type="submit"] {
+    /* 送信ボタンに対するスタイルはここに追加 */
+    background-color: #007bff; /* 例: 送信ボタンの背景色を指定 */
+    color: #fff; /* 例: 送信ボタンの文字色を指定 */
+    cursor: pointer; /* ホバー時にポインターを変更 */
+    border: none; /* 枠線をなくす */
+    padding: 10px; /* 送信ボタンの内側の余白を指定 */
+    border-radius: 4px; /* 送信ボタンの角丸を指定 */
+}
+
+/* 以下、既存のスタイルがある場合はそのまま残す */
+
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.operations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.operations form {
+    display: inline;
+}
+
+.operations input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.operations input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
